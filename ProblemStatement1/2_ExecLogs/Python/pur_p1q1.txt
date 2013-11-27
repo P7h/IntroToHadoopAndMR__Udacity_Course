@@ -1,0 +1,28 @@
+[training@udacity P1]$ time hs P1Q1_Mapper.py P1Q1_Reducer.py pur pur_p1q1
+packageJobJar: [P1Q1_Mapper.py, P1Q1_Reducer.py, /tmp/hadoop-training/hadoop-unjar2600752056635677193/] [] /tmp/streamjob3117925569824943428.jar tmpDir=null
+13/11/25 16:05:09 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+13/11/25 16:05:09 WARN snappy.LoadSnappy: Snappy native library is available
+13/11/25 16:05:09 INFO snappy.LoadSnappy: Snappy native library loaded
+13/11/25 16:05:09 INFO mapred.FileInputFormat: Total input paths to process : 1
+13/11/25 16:05:09 INFO streaming.StreamJob: getLocalDirs(): [/var/lib/hadoop-hdfs/cache/training/mapred/local]
+13/11/25 16:05:09 INFO streaming.StreamJob: Running job: job_201311251433_0044
+13/11/25 16:05:09 INFO streaming.StreamJob: To kill this job, run:
+13/11/25 16:05:09 INFO streaming.StreamJob: UNDEF/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_201311251433_0044
+13/11/25 16:05:09 INFO streaming.StreamJob: Tracking URL: http://0.0.0.0:50030/jobdetails.jsp?jobid=job_201311251433_0044
+13/11/25 16:05:10 INFO streaming.StreamJob:  map 0%  reduce 0%
+13/11/25 16:05:19 INFO streaming.StreamJob:  map 33%  reduce 0%
+13/11/25 16:05:22 INFO streaming.StreamJob:  map 50%  reduce 0%
+13/11/25 16:05:31 INFO streaming.StreamJob:  map 50%  reduce 17%
+13/11/25 16:05:32 INFO streaming.StreamJob:  map 75%  reduce 17%
+13/11/25 16:05:34 INFO streaming.StreamJob:  map 94%  reduce 25%
+13/11/25 16:05:36 INFO streaming.StreamJob:  map 100%  reduce 25%
+13/11/25 16:05:43 INFO streaming.StreamJob:  map 100%  reduce 75%
+13/11/25 16:05:46 INFO streaming.StreamJob:  map 100%  reduce 82%
+13/11/25 16:05:49 INFO streaming.StreamJob:  map 100%  reduce 90%
+13/11/25 16:05:52 INFO streaming.StreamJob:  map 100%  reduce 100%
+13/11/25 16:05:55 INFO streaming.StreamJob: Job complete: job_201311251433_0044
+13/11/25 16:05:55 INFO streaming.StreamJob: Output: pur_p1q1
+
+real    0m47.695s
+user    0m0.811s
+sys     0m0.662s

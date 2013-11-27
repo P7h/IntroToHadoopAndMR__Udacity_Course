@@ -1,0 +1,56 @@
+[training@udacity P2]$ time hadoop jar acc.jar org.p7h.udacityhadoop.p2.P2Q2 acc acc_p2q2
+13/11/25 15:57:05 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+13/11/25 15:57:05 INFO input.FileInputFormat: Total input paths to process : 1
+13/11/25 15:57:05 WARN snappy.LoadSnappy: Snappy native library is available
+13/11/25 15:57:05 INFO snappy.LoadSnappy: Snappy native library loaded
+13/11/25 15:57:06 INFO mapred.JobClient: Running job: job_201311251433_0040
+13/11/25 15:57:07 INFO mapred.JobClient:  map 0% reduce 0%
+13/11/25 15:57:15 INFO mapred.JobClient:  map 25% reduce 0%
+13/11/25 15:57:22 INFO mapred.JobClient:  map 50% reduce 0%
+13/11/25 15:57:24 INFO mapred.JobClient:  map 50% reduce 16%
+13/11/25 15:57:29 INFO mapred.JobClient:  map 75% reduce 16%
+13/11/25 15:57:33 INFO mapred.JobClient:  map 75% reduce 25%
+13/11/25 15:57:34 INFO mapred.JobClient:  map 87% reduce 25%
+13/11/25 15:57:36 INFO mapred.JobClient:  map 100% reduce 29%
+13/11/25 15:57:39 INFO mapred.JobClient:  map 100% reduce 100%
+13/11/25 15:57:39 INFO mapred.JobClient: Job complete: job_201311251433_0040
+13/11/25 15:57:39 INFO mapred.JobClient: Counters: 32
+13/11/25 15:57:39 INFO mapred.JobClient:   File System Counters
+13/11/25 15:57:39 INFO mapred.JobClient:     FILE: Number of bytes read=14405657
+13/11/25 15:57:39 INFO mapred.JobClient:     FILE: Number of bytes written=23075828
+13/11/25 15:57:39 INFO mapred.JobClient:     FILE: Number of read operations=0
+13/11/25 15:57:39 INFO mapred.JobClient:     FILE: Number of large read operations=0
+13/11/25 15:57:39 INFO mapred.JobClient:     FILE: Number of write operations=0
+13/11/25 15:57:39 INFO mapred.JobClient:     HDFS: Number of bytes read=504971115
+13/11/25 15:57:39 INFO mapred.JobClient:     HDFS: Number of bytes written=5307821
+13/11/25 15:57:39 INFO mapred.JobClient:     HDFS: Number of read operations=17
+13/11/25 15:57:39 INFO mapred.JobClient:     HDFS: Number of large read operations=0
+13/11/25 15:57:39 INFO mapred.JobClient:     HDFS: Number of write operations=1
+13/11/25 15:57:39 INFO mapred.JobClient:   Job Counters 
+13/11/25 15:57:39 INFO mapred.JobClient:     Launched map tasks=8
+13/11/25 15:57:39 INFO mapred.JobClient:     Launched reduce tasks=1
+13/11/25 15:57:39 INFO mapred.JobClient:     Data-local map tasks=8
+13/11/25 15:57:39 INFO mapred.JobClient:     Total time spent by all maps in occupied slots (ms)=53500
+13/11/25 15:57:39 INFO mapred.JobClient:     Total time spent by all reduces in occupied slots (ms)=23709
+13/11/25 15:57:39 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+13/11/25 15:57:39 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+13/11/25 15:57:39 INFO mapred.JobClient:   Map-Reduce Framework
+13/11/25 15:57:39 INFO mapred.JobClient:     Map input records=4477843
+13/11/25 15:57:39 INFO mapred.JobClient:     Map output records=4477843
+13/11/25 15:57:39 INFO mapred.JobClient:     Map output bytes=79641285
+13/11/25 15:57:39 INFO mapred.JobClient:     Input split bytes=904
+13/11/25 15:57:39 INFO mapred.JobClient:     Combine input records=4828413
+13/11/25 15:57:39 INFO mapred.JobClient:     Combine output records=707126
+13/11/25 15:57:39 INFO mapred.JobClient:     Reduce input groups=333923
+13/11/25 15:57:39 INFO mapred.JobClient:     Reduce shuffle bytes=7025980
+13/11/25 15:57:39 INFO mapred.JobClient:     Reduce input records=356556
+13/11/25 15:57:39 INFO mapred.JobClient:     Reduce output records=333923
+13/11/25 15:57:39 INFO mapred.JobClient:     Spilled Records=1087614
+13/11/25 15:57:39 INFO mapred.JobClient:     CPU time spent (ms)=39430
+13/11/25 15:57:39 INFO mapred.JobClient:     Physical memory (bytes) snapshot=1610698752
+13/11/25 15:57:39 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=3491131392
+13/11/25 15:57:39 INFO mapred.JobClient:     Total committed heap usage (bytes)=1302364160
+
+real    0m34.471s
+user    0m0.862s
+sys     0m0.539s

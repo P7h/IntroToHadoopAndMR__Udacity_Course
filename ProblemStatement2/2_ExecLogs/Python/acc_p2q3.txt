@@ -1,0 +1,43 @@
+[training@udacity P2]$ time hs P2Q3_Mapper.py P2Q3_Reducer.py acc acc_p2q3
+packageJobJar: [P2Q3_Mapper.py, P2Q3_Reducer.py, /tmp/hadoop-training/hadoop-unjar1613575993913039425/] [] /tmp/streamjob4155149096776865138.jar tmpDir=null
+13/11/25 16:12:44 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+13/11/25 16:12:44 WARN snappy.LoadSnappy: Snappy native library is available
+13/11/25 16:12:44 INFO snappy.LoadSnappy: Snappy native library loaded
+13/11/25 16:12:44 INFO mapred.FileInputFormat: Total input paths to process : 1
+13/11/25 16:12:45 INFO streaming.StreamJob: getLocalDirs(): [/var/lib/hadoop-hdfs/cache/training/mapred/local]
+13/11/25 16:12:45 INFO streaming.StreamJob: Running job: job_201311251433_0049
+13/11/25 16:12:45 INFO streaming.StreamJob: To kill this job, run:
+13/11/25 16:12:45 INFO streaming.StreamJob: UNDEF/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_201311251433_0049
+13/11/25 16:12:45 INFO streaming.StreamJob: Tracking URL: http://0.0.0.0:50030/jobdetails.jsp?jobid=job_201311251433_0049
+13/11/25 16:12:46 INFO streaming.StreamJob:  map 0%  reduce 0%
+13/11/25 16:12:55 INFO streaming.StreamJob:  map 13%  reduce 0%
+13/11/25 16:12:58 INFO streaming.StreamJob:  map 21%  reduce 0%
+13/11/25 16:13:01 INFO streaming.StreamJob:  map 25%  reduce 0%
+13/11/25 16:13:08 INFO streaming.StreamJob:  map 25%  reduce 8%
+13/11/25 16:13:09 INFO streaming.StreamJob:  map 36%  reduce 8%
+13/11/25 16:13:12 INFO streaming.StreamJob:  map 43%  reduce 8%
+13/11/25 16:13:15 INFO streaming.StreamJob:  map 50%  reduce 8%
+13/11/25 16:13:18 INFO streaming.StreamJob:  map 50%  reduce 17%
+13/11/25 16:13:24 INFO streaming.StreamJob:  map 59%  reduce 17%
+13/11/25 16:13:27 INFO streaming.StreamJob:  map 65%  reduce 17%
+13/11/25 16:13:30 INFO streaming.StreamJob:  map 71%  reduce 17%
+13/11/25 16:13:31 INFO streaming.StreamJob:  map 72%  reduce 17%
+13/11/25 16:13:33 INFO streaming.StreamJob:  map 75%  reduce 21%
+13/11/25 16:13:36 INFO streaming.StreamJob:  map 75%  reduce 25%
+13/11/25 16:13:39 INFO streaming.StreamJob:  map 81%  reduce 25%
+13/11/25 16:13:41 INFO streaming.StreamJob:  map 93%  reduce 25%
+13/11/25 16:13:42 INFO streaming.StreamJob:  map 97%  reduce 25%
+13/11/25 16:13:45 INFO streaming.StreamJob:  map 100%  reduce 29%
+13/11/25 16:13:50 INFO streaming.StreamJob:  map 100%  reduce 67%
+13/11/25 16:13:53 INFO streaming.StreamJob:  map 100%  reduce 71%
+13/11/25 16:13:56 INFO streaming.StreamJob:  map 100%  reduce 76%
+13/11/25 16:13:59 INFO streaming.StreamJob:  map 100%  reduce 83%
+13/11/25 16:14:02 INFO streaming.StreamJob:  map 100%  reduce 91%
+13/11/25 16:14:05 INFO streaming.StreamJob:  map 100%  reduce 99%
+13/11/25 16:14:07 INFO streaming.StreamJob:  map 100%  reduce 100%
+13/11/25 16:14:08 INFO streaming.StreamJob: Job complete: job_201311251433_0049
+13/11/25 16:14:08 INFO streaming.StreamJob: Output: acc_p2q3
+
+real    1m24.595s
+user    0m0.969s
+sys     0m0.570s
