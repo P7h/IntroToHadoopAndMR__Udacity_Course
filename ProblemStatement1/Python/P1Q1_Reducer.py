@@ -20,7 +20,7 @@ for line in sys.stdin:
 
     if oldKey and oldKey != thisKey:
         print oldKey, "\t", salesTotal
-        oldKey = thisKey;
+        oldKey = thisKey
         salesTotal = 0
 
     oldKey = thisKey
